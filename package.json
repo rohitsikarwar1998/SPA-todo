@@ -1,19 +1,19 @@
 {
-  "name": "ToDo",
+  "name":"todo",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ian",
+  "author": "Rohit Sikarwar",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.14.1",
-    "ejs": "^2.3.4",
-    "express": "^4.13.3",
-    "express-sanitizer": "^1.0.1",
-    "method-override": "^2.3.5",
-    "mongoose": "^4.2.3"
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.20"
   }
 }
