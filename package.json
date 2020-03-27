@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    
+    "watch" : "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rohit Sikarwar",
@@ -16,6 +16,8 @@
     "express-sanitizer": "^1.0.5",
     "method-override": "^2.3.10",
     "mongoose": "^4.13.20"
+   },
+   "devDependencies": {
+     "nodemon": "^2.0.2"
    }
-   
 }
