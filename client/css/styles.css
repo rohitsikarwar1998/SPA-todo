@@ -1,7 +1,46 @@
 body {
-  padding-top: 80px;
+  padding-top: 70px;
+  background: #43C6AC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F8FFAE, #43C6AC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h4 {
+  text-align: center;
+}
+
+#new-todo-form {
+  text-align: center;
+}
+
+/* Flaired edges */
+
+hr.style-three {
+  /* height: 30px; */
+  border-style: solid;
+  border-color: #0000005c;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+hr.style-three:before {
+  display: block;
+  content: "";
+  /* height: 30px; */
+  /* margin-top: -31px; */
+  border-style: solid;
+  border-color: #0000005c;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
 }
 
 #edit-todo-form {
   display: none;
+}
+
+#new-form-div {
+  width: 80%;
 }

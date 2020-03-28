@@ -13,17 +13,17 @@ $(document).ready(function () {
 								<label>Item Text</label>
 								<input type="text" value="${todo.text}" name="todo[text]" class="form-control">
 							</div>
-							<button class="btn btn-primary">Update Item</button>
+							<button class="btn btn-primary"><span class="glyphicon glyphicon-send" aria-hidden="true"></span></button>
 						</form>
 
 						<span class="lead">
                            ${todo.text}
 						</span>
 						<div class="pull-right">
-							<a class="btn btn-sm btn-warning edit-button">Edit</a>
+							<a class="btn btn-sm btn-warning edit-button"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
 							<form style="display: inline" method="POST" id="delete-todo-form"
 								action="/todos/${todo._id}">
-								<button type=" submit" class="btn btn-sm btn-danger">Delete</button>
+								<button type=" submit" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>
 							</form>
 						</div>
 						<div class="clearfix"></div>
@@ -46,16 +46,16 @@ $(document).ready(function () {
 						<label>Item Text</label>
 						<input type="text" value="${data.text}" name="todo[text]" class="form-control">
 					</div>
-					<button class="btn btn-primary">Update Item</button>
+					<button class="btn btn-primary"><span class="glyphicon glyphicon-send" aria-hidden="true"></span></button>
 				</form>
 
 				<span class="lead">
                 ${data.text}
 				</span>
 				<div class="pull-right">
-					<a class="btn btn-sm btn-warning edit-button">Edit</a>
+					<a class="btn btn-sm btn-warning edit-button"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
 					<form style="display: inline" method="POST" id="delete-todo-form" action="/todos/${data._id}">
-						<button type=" submit" class="btn btn-sm btn-danger">Delete</button>
+						<button type=" submit" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>
 					</form>
 				</div>
 				<div class="clearfix"></div>
@@ -89,16 +89,16 @@ $(document).ready(function () {
 						<label>Item Text</label>
 						<input type="text" value="${data.text}" name="todo[text]" class="form-control">
 					</div>
-					<button class="btn btn-primary">Update Item</button>
+					<button class="btn btn-primary"><span class="glyphicon glyphicon-send" aria-hidden="true"></span></button>
 				</form>
 
 				<span class="lead">
                 ${data.text}
 				</span>
 				<div class="pull-right">
-					<a class="btn btn-sm btn-warning edit-button">Edit</a>
+					<a class="btn btn-sm btn-warning edit-button"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
 					<form style="display: inline" method="POST" id="delete-todo-form" action="/todos/${data._id}">
-						<button type=" submit" class="btn btn-sm btn-danger">Delete</button>
+						<button type=" submit" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>
 					</form>
 				</div>
 				<div class="clearfix"></div>
